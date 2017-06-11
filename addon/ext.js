@@ -1,8 +1,8 @@
 import Ember from 'ember';
 import Store from 'ember-data/store';
 import Model from 'ember-data/model';
-import InternalModel from 'ember-data/-private/system/model/internal-model';
-import ContainerInstanceCache from 'ember-data/-private/system/store/container-instance-cache';
+import { InternalModel } from 'ember-data/-private';
+import { ContainerInstanceCache } from 'ember-data/-private';
 import JSONSerializer from 'ember-data/serializers/json';
 import FragmentRootState from './states';
 import {
